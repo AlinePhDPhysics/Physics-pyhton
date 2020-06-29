@@ -1,8 +1,10 @@
 n = input ('Digite um número inteiro qualquer: ')
 n = int (n)
 
-for n in range(1, 11, 1):
-    n = n+1
-    print (n)    
+if n<= 11:
+    for n in range(1, 11, 1):
+        n = n+1
+        print (n)
 else:
-    print("Feito!")
+    if n > 11:
+        print("Feito!")
